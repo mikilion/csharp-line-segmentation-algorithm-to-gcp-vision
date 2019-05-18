@@ -58,7 +58,7 @@ namespace GcpVisionLineSegmentation
       {
         new VertexDouble(line1.Xmin, line1.Ymin),
         new VertexDouble(line1.Xmax, line1.Ymax),
-        new VertexDouble(line2.Ymax, line2.Ymax),
+        new VertexDouble(line2.Xmax, line2.Ymax),
         new VertexDouble(line2.Xmin, line2.Ymin)
       };
     }
